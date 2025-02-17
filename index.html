@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding for proper text rendering -->
     <meta charset="UTF-8">
+    
+    <!-- Ensures the webpage is responsive on all devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage (appears in the browser tab) -->
     <title>Gerald Ford</title>
+    
+    <!-- Import Google Font: Montserrat (used for text styling) -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Import Bootstrap CSS for styling and layout -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Link to external CSS file for custom styling -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <!-- Navbar -->
+    <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
+            <!-- Brand name or logo -->
             <a class="navbar-brand" href="#">Gerald Ford</a>
+            
+            <!-- Mobile menu toggle button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
+            <!-- Navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -28,48 +44,57 @@
         </div>
     </nav>
     
-    <!-- Hero Section -->
+    <!-- Hero Section (Introduction) -->
     <div class="hero">
         <div class="hero-content">
+            <!-- Main heading -->
             <h1 class="hero-h1">The Ford<br>Presidency<br></h1>
+            
+            <!-- Subtitle or tagline -->
             <p class="hero-p">Steady Leadership, Honest Governance, A United America.</p>
         </div>
     </div>
 
-    <div class="card-container">
+    <!-- Card Section (Information Cards) -->
+    
+    <!-- Each card container holds an individual card -->
+    <div class="card-container" style="width: 18rem;">
         <div class="card">
-            <div class="card-header bg-light-blue">
-                <h2>THE RECORD</h2>
-                <p>Explore the accomplishments of the Biden-Harris Administration.</p>
-            </div>
-            <div class="card-image" style="background-image: url('image1.jpg');"></div>
-        </div>
-
-        <div class="card">
-            <div class="card-header bg-white">
-                <h2>THE MOMENTS</h2>
-                <p>View moments featuring the American people during the Biden-Harris Administration.</p>
-            </div>
-            <div class="card-image" style="background-image: url('image2.jpg');"></div>
-        </div>
-
-        <div class="card">
-            <div class="card-header bg-blue">
-                <h2>THE STORY</h2>
-                <p>Experience a visual timeline of the Biden-Harris Administration.</p>
-            </div>
-            <div class="card-image" style="background-image: url('image3.jpg');"></div>
-        </div>
-
-        <div class="card">
-            <div class="card-header bg-tan">
-                <h2>THE ECONOMY</h2>
-                <p>Learn more about the President’s economy for all Americans.</p>
-            </div>
-            <div class="card-image" style="background-image: url('image4.jpg');"></div>
+            <!-- Card header with background color -->
+            <h5 class="card-header bg-light-blue">Card title</h5>
+            
+            <!-- Card description text -->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+            <!-- Placeholder for an image inside the card -->
+            <img src="..." class="card-img" alt="...">
         </div>
     </div>
-    
+
+    <!-- Duplicate cards with the same structure -->
+    <div class="card-container" style="width: 18rem;">
+        <div class="card">
+            <h5 class="card-header bg-light-blue">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <img src="..." class="card-img" alt="...">
+        </div>
+    </div>
+
+    <div class="card-container" style="width: 18rem;">
+        <div class="card">
+            <h5 class="card-header bg-light-blue">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <img src="..." class="card-img" alt="...">
+        </div>
+    </div>
+
+    <div class="card-container" style="width: 18rem;">
+        <div class="card">
+            <h5 class="card-header bg-light-blue">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <img src="..." class="card-img" alt="...">
+        </div>
+    </div>
+
 </body>
 </html>
-
