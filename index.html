@@ -21,69 +21,79 @@
 </head>
 <body>
     
-    <!-- Navbar Section -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <!-- Brand name or logo -->
-            <a class="navbar-brand" href="#">Gerald Ford</a>
+            <!-- Website title or brand -->
+            <a class="navbar-brand" href="index.html">Gerald Ford</a>
             
             <!-- Mobile menu toggle button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <!-- Navigation links -->
+            <!-- Navigation links for different sections -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#policies">Policies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#legacy">Legacy</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="record.html">His Records</a></li>
+                    <li class="nav-item"><a class="nav-link" href="moments.html">His Moments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="timeline.html">Timeline</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    <!-- Hero Section (Introduction) -->
+    <!-- Hero Section (Introduction with background image) -->
     <div class="hero">
         <div class="hero-content">
-            <!-- Main heading -->
+            <!-- Main heading of the page -->
             <h1 class="hero-h1">The Ford<br>Presidency<br></h1>
             
-            <!-- Subtitle or tagline -->
+            <!-- Subheading or tagline -->
             <p class="hero-p">Steady Leadership, Honest Governance, A United America.</p>
         </div>
     </div>
 
-    <!-- Card Section (Information Cards) -->
-    
-    <!-- Each card container holds an individual card -->
+    <!-- Information Cards Section -->
     <div class="card-container">
-        <div class="card">
-          <img class="card-image" src="imgs/gerald-football.avif" alt="Historic Climate Action">
-          <div class="card-header">The Record</div>
-          <div class="card-body">Explore the accomplishments of the Biden-Harris Administration.</div>
-        </div>
         
-        <div class="card">
-          <img class="card-image" src="imgs/gerald-football.avif" alt="Moments">
-          <div class="card-header">The Moments</div>
-          <div class="card-body">View moments featuring the American people during the Biden-Harris Administration.</div>
-        </div>
-        
-        <div class="card">
-          <img class="card-image" src="imgs/gerald-football.avif" alt="The Story">
-          <div class="card-header">The Story</div>
-          <div class="card-body">Experience a visual timeline of the Biden-Harris Administration.</div>
-        </div>
-        
-        <div class="card">
-          <img class="card-image" src="imgs/gerald-football.avif" alt="The Economy">
-          <div class="card-header">The Economy</div>
-          <div class="card-body">Learn more about the President’s economy for all Americans.</div>
-        </div>
-      </div>
-      
+        <!-- First Card: His Record -->
+        <a href="record.html" class="card-link">
+            <div class="card">
+                <img class="card-image" src="imgs/gerald-football.avif" alt="Historic Climate Action">
+                <div class="card-header">His Record</div>
+                <div class="card-body">Dive into Gerald Ford’s achievements and legislative milestones.</div>
+            </div>
+        </a>
+    
+        <!-- Second Card: His Moments -->
+        <a href="moments.html" class="card-link">
+            <div class="card">
+                <img class="card-image" src="imgs/gerald-football.avif" alt="Moments">
+                <div class="card-header">His Story</div>
+                <div class="card-body">Relive key moments and pivotal decisions that defined Ford’s time in office.</div>
+            </div>
+        </a>
+    
+        <!-- Third Card: His Legacy -->
+        <a href="timeline.html" class="card-link">
+            <div class="card">
+                <img class="card-image" src="imgs/gerald-football.avif" alt="The Story">
+                <div class="card-header">Historical Timeline</div>
+                <div class="card-body">Discover the lasting impact of Gerald Ford’s presidency and the mark he left on America.</div>
+            </div>
+        </a>
+    
+        <!-- Fourth Card: His Economy -->
+        <a href="quiz.html" class="card-link">
+            <div class="card">
+                <img class="card-image" src="imgs/gerald-football.avif" alt="The Economy">
+                <div class="card-header">Take a Quiz!</div>
+                <div class="card-body">Test your knowledge!</div>
+            </div>
+        </a>
+    </div>
 
 </body>
 </html>
